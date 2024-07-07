@@ -1,0 +1,21 @@
+# Automating the AWS Resources Tracker script using Cronjob
+
+# Edit the crontab file with root access
+
+Sudo crontab -e
+
+# Now select the text editor you want to choose (example : Vim, Nano etc.,)
+
+# Add the cronjob entry - the script should run daily at 7:30 PM
+# modify the below path of your script according to your saved path
+
+30 19 * * * /home/ubuntu/users/AWS_Resources_Tracker.sh
+
+# Save and exit your text editor
+# Also make sure your script has the appropriate executable permissions
+
+
+
+
+
+
