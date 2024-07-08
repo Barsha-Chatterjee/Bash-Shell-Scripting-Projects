@@ -1,6 +1,6 @@
 # Automating the AWS Resources Tracker script using Cronjob
 
-# Edit the crontab file with root access
+# Edit the crontab file as root user
 
 Sudo crontab -e
 
