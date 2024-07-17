@@ -25,7 +25,7 @@ function list_users_with_access {
 local endpoint="repos/${REPO_OWNER}/${REPO_NAME}/collaborators"
 
 # Fetch list of collaborators in repo
-collaborators="$(github_api_call "$endpoint" 
+collaborators="$(github_api_call "$endpoint")
 
 # Display the list of collaborators with access
     if [[ -z "$collaborators" ]]; then
