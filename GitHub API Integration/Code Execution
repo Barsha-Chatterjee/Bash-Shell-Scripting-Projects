@@ -5,8 +5,8 @@ git clone [ENTER YOUR GIT URL]
 # Enter your GIT Username and API Token
 # Token creation path - Settings - Developer settings - Personal access tokens - Generate new token
 
-Export Username="YOU GIT ACCOUNT"
-Export token="TOKEN"
+export Username="YOU GIT ACCOUNT"
+export token="TOKEN"
 
 # Execute the script (make sure to give correct file permissions before execution)
 
