@@ -20,7 +20,29 @@ local url="${GitHub_API_URL}/${repo}"
   curl -s -u "${Username}:${Token}" "$url"
 }
 
-# TO BE CONTINUED......!
+# Function to list users with access to the repo
+function list_users_with_access {
+local endpoint="repos/${REPO_OWNER}/${REPO_NAME}/collaborators"
+
+# Fetch list of collaborators in repo
+collaborators="$(github_api_call "$endpoint" | jq -r '.[] | select(.permissions.pull == true) | .login')"
+
+# Display the list of collaborators with access
+    if [[ -z "$collaborators" ]]; then
+        echo "No users with access found for ${REPO_OWNER}/${REPO_NAME}."
+    else
+        echo "Users with access to ${REPO_OWNER}/${REPO_NAME}:"
+        echo "$collaborators"
+    fi
+}
+
+# Main script
+
+echo "Listing users with access to ${REPO_OWNER}/${REPO_NAME}..."
+list_users_with_access
+
+
+
 
 
 
