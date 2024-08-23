@@ -1,1 +1,15 @@
+#This script will automate the AWS Resource listing job (every monday at 9 AM)
+# Edit the crontab file as root user
 
+Sudo crontab -e
+
+# Now select the text editor you want to choose (example : Vim, Nano etc.,)
+
+# Add the cronjob entry - the script should run daily at 7:30 PM
+# modify the below path of your script according to your saved path
+
+0 9 * * 1 ~/aws_list_services.sh
+
+
+# Save and exit your text editor
+# Also make sure your script has the appropriate executable permissions
