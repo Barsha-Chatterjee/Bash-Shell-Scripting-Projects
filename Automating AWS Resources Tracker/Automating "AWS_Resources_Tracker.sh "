@@ -1,4 +1,4 @@
-# Automating the AWS Resources Tracker script using Cronjob
+# Automating the AWS Resources Tracker script using Cronjob (every day 7:30 PM)
 
 # Edit the crontab file as root user
 
@@ -9,7 +9,7 @@ Sudo crontab -e
 # Add the cronjob entry - the script should run daily at 7:30 PM
 # modify the below path of your script according to your saved path
 
-30 19 * * * /home/ubuntu/users/AWS_Resources_Tracker.sh
+30 19 * * * ~/AWS_Resources_Tracker.sh
 
 # Save and exit your text editor
 # Also make sure your script has the appropriate executable permissions
