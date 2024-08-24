@@ -1,9 +1,8 @@
 #!/bin/bash
 
-
+## Verion: V2 - Using Case statement
 ####################################
 # This script will help users to automate the list of  required aws resources from various regions
-## Verion: V2 - Using Case statement
 # Below are the services that can be listed out using this script
 #
 # EC2 Instances
