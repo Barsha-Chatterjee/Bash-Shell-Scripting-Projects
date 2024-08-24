@@ -3,7 +3,7 @@
 
 ####################################
 # This script will help users to automate the list of  required aws resources from various regions
-# 
+## Verion: V2 - Using Case statement
 # Below are the services that can be listed out using this script
 #
 # EC2 Instances
@@ -47,7 +47,7 @@ if [ ! -d ~/.aws ]; then
         exit 1
 fi
 
-# List out the aws services (Switch case is used)
+# List out the aws services
 
 case $aws_service in
         ec2)
