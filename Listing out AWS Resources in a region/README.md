@@ -1,1 +1,1 @@
-
+Usecase: Automating the listing of AWS resource services daily can help track resource usage, manage costs, and ensure compliance with organizational policies. It allows for timely identification of unused or underutilized resources, improving operational efficiency and cost-effectiveness.
