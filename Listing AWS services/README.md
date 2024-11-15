@@ -3,4 +3,7 @@ Usecase: Automating the listing of AWS resource services daily can help track re
 2 Versions are created for the same:
 1. Using else-if statement
 2. Using Case statement
+
+
+
 You can use either of the version from the above and automate it using crob job
