@@ -1,4 +1,6 @@
-Usecase: Automating the listing of AWS resource services daily can help track resource usage, manage costs, and ensure compliance with organizational policies. It allows for timely identification of unused or under-utilized resources, improving operational efficiency and cost-effectiveness.
+**Usecase:**
+
+Automating the listing of AWS resource services daily can help track resource usage, manage costs, and ensure compliance with organizational policies. It allows for timely identification of unused or under-utilized resources, improving operational efficiency and cost-effectiveness.
 
 2 Versions are created for the same:
 1. Using else-if statement
