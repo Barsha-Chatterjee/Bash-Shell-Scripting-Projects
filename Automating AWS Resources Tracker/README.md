@@ -1,4 +1,4 @@
-Use-case Scenario :
+**Use-case Scenario :**
 
 As a dedicated Cloud/DevOps administrator, you are responsible for meticulously monitoring and tracking all managed resources and providing a comprehensive report to your manager daily at precisely 7:30 PM. 
 
